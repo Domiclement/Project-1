@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Master</title>
+    <link rel="icon" href="assets/images/coffee_masters_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="assets/images/coffee_masters_logo.png" alt="coffee_masters_logo">
+        <h1>Coffee Masters</h1>
+    </nav>
+
+    <div class="wrapper">
+        <table class="table-1">
+            <thead>
+                <tr>
+                    <th>ITEMS</th>
+                </tr>
+            </thead>
+            
+            <tr>
+                <td>
+                    <span class="quantity">1x</span> <span class="product">Cappuccino</span> <span class="price">$3.35</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="sub-product">Lite foam</td>
+            </tr>
+
+
+             <tr>
+                <td>
+                    <span class="quantity">1x</span> <span class="product">Cappuccino</span> <span class="price">$3.85</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="ssub-product">Lite milk</td>
+            </tr>
+            <tr>
+                <td class="sub-product">Double espresso</td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <span class="quantity">1x</span> <span class="product">Croissant</span> <span class="s-price">$2.45</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="sub-product">Butter</td>
+            </tr>
+
+        </table>
+    
+        <div class="main-cnt">
+            <div class="name">
+                <h1 class="title">NAME</h1>
+                <label for="order" class="input-label">Name of order  </label>
+                <!-- the il in this code stands for inputlabel-->
+                <input id="order" type="text" class="il" placeholder="Domi Clement Dela">
+            </div>
+        
+            <div class="payment">
+                <h1 class="title">PAYMENT</h1>
+                <label for="Card-number" class="input-lb">Card number</label>
+                <!-- the il-1 in this code stands for inputlabel number one-->
+                <input id="Card-number" type="number" class="il" placeholder="1234 5678 9012 3456">
+<br>
+                <label for="CCV number" class="input-l">CCV number</label>
+                <!-- the il-1 in this code stands for inputlabel number one-->
+                <input id="CCV number" type="number" class="ip" placeholder="001">   
+            </div>
+           
+        </div>
+    </div>
+
+    <section>
+        <table id="table-2">
+            <tr>
+                <td class="st">Subtotal:</td>
+                <!-- in this part of the code mv is monetary value assigned to subtotal-->
+                <td class="mv">$9.65</td>
+            </tr>
+
+            <tr>
+                <td class="st">Tax:</td>
+                <td class="mv">$0.82</td>
+            </tr>
+
+            <tr>
+                <td class="total">Total:</td>
+                <td class="total-value">$10.47</td>
+            </tr>
+        </table>
+
+        <footer class="footer">
+                <a class="place-order" href="#">Place Order</a>
+        </footer>
+    </section>
+
+
+    
+</body>
+</html>
